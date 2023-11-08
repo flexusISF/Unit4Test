@@ -23,4 +23,5 @@ public class Exercise2 : MonoBehaviour
         //If the user presses the R key, call Rain(10);
       
     }
+    public void r
 }

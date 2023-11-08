@@ -5,7 +5,7 @@ using UnityEngine;
 public class Exercise1 : MonoBehaviour
 {
     //VARIABLES
-    private float speed = 0;
+    private float speed = 3;
     private Vector2 direction = Vector2.right;
 
 
@@ -25,7 +25,12 @@ public class Exercise1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(direction * speed * Time.deltaTime);
+        StartCoroutine(ChangeDirection);
+        {
+            IEnumerator ChangeDirection
+
+        }
+        transform.Translate(Vector2.left * speed * Time.deltaTime);
         //Start the ChangeDirection coroutine if the A key is pressed.
 
        

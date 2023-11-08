@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Exercise3 : MonoBehaviour
 {
+    public float RandomPosition;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,12 @@ public class Exercise3 : MonoBehaviour
      * return randomPos
      * 
      * **************************************/
+    public Vector2 RandomPosition(Vector2
+    {
+        float xPos = Random.Range(-5, 5);
+        float yPos = Random.Range(0, 4);
+        Vector2 Random Pos = new Vector2(xPos, yPos);
+        return Random Pos;
+    }
 
-   
 }
